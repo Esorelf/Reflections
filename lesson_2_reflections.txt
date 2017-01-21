@@ -5,4 +5,9 @@ When initializing a repository, git creates an empty repository in the chosen di
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-The staging area is the middle ground between the working directory and repository. It allows the user to add the files they choose into the repository, ready to be committed if desired. The value in choosing what files do add into a group ready to be committed is that while creating a repository from the working directory will allow the grouping of related files, the staging area enables the user to break down the files into even more specifically related groups.
+The staging area is the middle ground between the working directory and repository. It allows the user to add the files they choose into the repository, ready to be committed if desired. The value in choosing what files do add into a group ready to be committed is that while creating a repository from the working directory will allow the grouping of related files, the staging area enables the user to break down the files into even more specifically related groups
+
+
+How can you use the staging area to make sure you have one commit per logical change? 
+
+The staging area allows me to add files that were changed, so that I can commit them. This helps ensuring I commit every logical change, because when I add a file to the staging area, I can use git diff to compare the file to its most recent commit, and thus see if there are significant enough changes to make a new commit.
