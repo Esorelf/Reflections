@@ -21,3 +21,8 @@ If I were creating Virtual Reality game, and learned about a cool new technique 
 How do the diagrams help you visualize the branch structure?
 
 The diagrams allow me to see which commits are part of which branch, and at what point in time the branches were created. They let me see the changes made in each branch, and if branches were created from those branches.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When two branches are merged, the new branch is a combination of the commits of both branches. The way it is represented in the diagram shows how there are two existing branches with their respective commits, and how they are combined and saved into one commit, so that you have one version to develop, while still having access to the separate commits.
