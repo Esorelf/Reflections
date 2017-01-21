@@ -26,3 +26,7 @@ The diagrams allow me to see which commits are part of which branch, and at what
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When two branches are merged, the new branch is a combination of the commits of both branches. The way it is represented in the diagram shows how there are two existing branches with their respective commits, and how they are combined and saved into one commit, so that you have one version to develop, while still having access to the separate commits.
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+The benefits of automatic merging is that Git will determine what commits to merge, saving the trouble of having to having to examine each commit to see which ones should merge. However, this is a double-edged sword in that, Git cannot automatically merge when changes between two branches are very minimal, and therefore manual merging must me employed.
