@@ -16,3 +16,8 @@ The staging area allows me to add files that were changed, so that I can commit 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 If I were creating Virtual Reality game, and learned about a cool new technique in which I could add in NPC's, I might want to create a separate branch in which I could experiment with said technique, while retaining the working version of the game in the master branch. The separate branches would allow me to progress with the main game and the experimental version, and if I eventually made the experimental work, I would be able to combine the most recent commits of the two branches.
+
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams allow me to see which commits are part of which branch, and at what point in time the branches were created. They let me see the changes made in each branch, and if branches were created from those branches.
