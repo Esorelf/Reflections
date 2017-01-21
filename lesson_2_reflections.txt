@@ -11,3 +11,8 @@ The staging area is the middle ground between the working directory and reposito
 How can you use the staging area to make sure you have one commit per logical change? 
 
 The staging area allows me to add files that were changed, so that I can commit them. This helps ensuring I commit every logical change, because when I add a file to the staging area, I can use git diff to compare the file to its most recent commit, and thus see if there are significant enough changes to make a new commit.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If I were creating Virtual Reality game, and learned about a cool new technique in which I could add in NPC's, I might want to create a separate branch in which I could experiment with said technique, while retaining the working version of the game in the master branch. The separate branches would allow me to progress with the main game and the experimental version, and if I eventually made the experimental work, I would be able to combine the most recent commits of the two branches.
