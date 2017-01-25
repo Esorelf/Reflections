@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather thank keeping all your work local?
+
+One of the best situtations to make use of a remote repository is when working on a 
+project with multiple people. Everyone working would have access to the remote
+repository, and so would be able to upload their changes to it, without affecting your 
+personal changes.
